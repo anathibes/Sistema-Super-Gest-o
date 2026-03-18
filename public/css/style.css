@@ -137,7 +137,10 @@
 
             .chamada {
                 margin-top: 30px;
-                margin-left: 20px;
+                margin-left: 2px;
+                display: flex;
+                align-items: center; 
+                gap: 8px;
             }
 
             .video {
