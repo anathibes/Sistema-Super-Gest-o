@@ -22,7 +22,7 @@
                 </div>
 
                 <div class="video">
-                    <img src="{{ asset('img/player_video.jpg')}}">
+                    <img src="{{ asset('img/player_video.svg')}}">
                 </div>
             </div>
 

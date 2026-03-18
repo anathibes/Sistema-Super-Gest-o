@@ -1,0 +1,19 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#0f172a"></rect>
+
+  <!-- barras -->
+  <rect x="60" y="100" width="30" height="80" fill="#38bdf8">
+    <animate attributeName="y" values="120;80;120" dur="1.5s" repeatCount="indefinite"></animate>
+    <animate attributeName="height" values="60;100;60" dur="1.5s" repeatCount="indefinite"></animate>
+  </rect>
+
+  <rect x="120" y="100" width="30" height="80" fill="#6366f1">
+    <animate attributeName="y" values="120;60;120" dur="1.5s" begin="0.2s" repeatCount="indefinite"></animate>
+    <animate attributeName="height" values="60;120;60" dur="1.5s" begin="0.2s" repeatCount="indefinite"></animate>
+  </rect>
+
+  <rect x="180" y="100" width="30" height="80" fill="#22c55e">
+    <animate attributeName="y" values="120;70;120" dur="1.5s" begin="0.4s" repeatCount="indefinite"></animate>
+    <animate attributeName="height" values="60;110;60" dur="1.5s" begin="0.4s" repeatCount="indefinite"></animate>
+  </rect>
+</svg>

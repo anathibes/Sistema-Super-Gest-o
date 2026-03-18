@@ -61,3 +61,4 @@ class AjusteProdutosFiliais extends Migration
         Schema::dropIfExists('filiais');
     }
 }
+
