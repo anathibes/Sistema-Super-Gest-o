@@ -4,11 +4,11 @@
   @csrf
   <input name="nome" type="text" placeholder="Nome" class="{{ $classe }}">
   <br>
-  <input name="telefone "type="text" placeholder="Telefone" class="{{ $classe }}">
+  <input name="telefone" type="text" placeholder="Telefone" class="{{ $classe }}">
   <br>
   <input name="email" type="text" placeholder="E-mail" class="{{ $classe }}">
   <br>
-  <select name="motivo_contato" class="{{ $classe }}">
+  <select name="motivo_contatos" class="{{ $classe }}">
     <option value="">Qual o motivo do contato?</option>
     <option value="1">Dúvida</option>
     <option value="2">Elogio</option>
